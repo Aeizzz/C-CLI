@@ -1,0 +1,11 @@
+#pragma once
+#include"2DShape.h"
+
+ref class Sin :DShape {
+public:
+	void Draw() override;
+	Sin();
+
+
+
+};

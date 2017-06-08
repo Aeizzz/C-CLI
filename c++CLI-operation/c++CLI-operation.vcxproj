@@ -127,11 +127,13 @@
     <ClInclude Include="2DShape.h" />
     <ClInclude Include="Diamond.h" />
     <ClInclude Include="Shape.h" />
+    <ClInclude Include="Sin.h" />
     <ClInclude Include="square.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Diamond.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sin.cpp" />
     <ClCompile Include="square.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

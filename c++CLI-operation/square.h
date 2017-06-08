@@ -2,7 +2,7 @@
 #include"2DShape.h"
 /***
 绘制正方形
-边长为n*n
+边长为n
 假设不指定边长则变成默认为10
 */
 ref class Square : DShape{
