@@ -1,10 +1,10 @@
 #pragma once
 #include"Shape.h"
 using namespace System;
-ref class 2DShape abstract: Shape{
+
+ref class DShape abstract: IShape{
 public:
-	//ªÊ÷∆Õº–Œ
-	void 2DShape();
-	virtual void Draw() = 0;
+	virtual void Draw() =0;
+	
 
 };

@@ -1,8 +1,5 @@
 #pragma once
 using namespace System;
-interface class Shape {
-public:
-	//ªÊ÷∆Õº–Œ
+interface class IShape {
 	virtual void Draw() = 0;
-
 };
