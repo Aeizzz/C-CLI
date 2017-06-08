@@ -125,10 +125,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="2DShape.h" />
+    <ClInclude Include="Diamond.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="square.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Diamond.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="square.cpp" />
   </ItemGroup>

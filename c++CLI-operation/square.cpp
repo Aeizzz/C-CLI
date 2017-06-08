@@ -17,6 +17,7 @@ void Square :: Draw() {
 	for (int i = 0; i < num; i++) {
 		Console::Write("* ");
 	}
+	Console::WriteLine();
 }
 Square::Square(int n) {
 	num = n;
