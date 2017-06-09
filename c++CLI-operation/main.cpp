@@ -3,6 +3,7 @@
 #include"Diamond.h"
 #include"Sin.h"
 #include"circle.h"
+#include"evergreen_tree.h"
 using namespace System;
 
 
@@ -15,6 +16,8 @@ int main() {
 	sin.Draw();
 	Circle circle;
 	circle.Draw();
+	Evergreen_tree evergreen_tree;
+	evergreen_tree.Draw();
 
 
 
