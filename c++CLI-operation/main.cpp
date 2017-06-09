@@ -2,6 +2,7 @@
 #include"square.h"
 #include"Diamond.h"
 #include"Sin.h"
+#include"circle.h"
 using namespace System;
 
 
@@ -10,8 +11,10 @@ int main() {
 	square.Draw();
 	Diamond diamond;
 	diamond.Draw();
-	Sin sin();
+	Sin sin;
 	sin.Draw();
+	Circle circle;
+	circle.Draw();
 
 
 
