@@ -5,7 +5,9 @@ Sin::Sin() {}
 void Sin::Draw() {
 	int n;
 	//周期
-	int t = 3;
+	int t;
+	if (num == 0) t = 1;
+	else t = num;
 	for (double y = 1; y >= -1; y -= 0.1) {
 		for (int x = 0; x <= 62*t; x++) {
 			if (y >= 0)
@@ -19,5 +21,12 @@ void Sin::Draw() {
 		}
 		Console::WriteLine();
 	}
+}
+Sin::Sin(int n) :num(n) {};
+void Sin::SetNum(int n) {
+	num = n;
+}
+int Sin::GetNum() {
+	return num;
 }
 
