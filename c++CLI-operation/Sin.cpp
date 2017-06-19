@@ -1,5 +1,5 @@
 ﻿#include"Sin.h"
-#include<math.h>
+#include"math.h"
 Sin::Sin() {}
 
 void Sin::Draw() {

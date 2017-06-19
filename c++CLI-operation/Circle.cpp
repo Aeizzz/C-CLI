@@ -1,6 +1,4 @@
 #include"circle.h"
-
-
 Circle::Circle() {};
 Circle::Circle(int n) :num(n) {};
 void Circle::Draw() {

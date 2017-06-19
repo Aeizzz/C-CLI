@@ -4,7 +4,5 @@ using namespace System;
 
 ref class DShape abstract: IShape{
 public:
-	virtual void Draw() =0;
-	
-
+	virtual void Draw() = 0;
 };

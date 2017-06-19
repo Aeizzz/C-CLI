@@ -23,7 +23,7 @@ int main() {
 		Console::WriteLine("3.输出正弦曲线");
 		Console::WriteLine("4.输出圆形");
 		Console::WriteLine("5.输出圣诞树");
-		Console::WriteLine("7.输出五角星");
+		Console::WriteLine("6.输出五角星");
 		Console::WriteLine("0.退出");
 		Console::WriteLine("请选择以上编号");
 		s = Console::ReadLine();
