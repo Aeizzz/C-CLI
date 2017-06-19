@@ -131,6 +131,7 @@
     <ClInclude Include="Shape.h" />
     <ClInclude Include="Sin.h" />
     <ClInclude Include="square.h" />
+    <ClInclude Include="Star.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
@@ -139,6 +140,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Sin.cpp" />
     <ClCompile Include="square.cpp" />
+    <ClCompile Include="Star.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -4,6 +4,7 @@
 #include"Sin.h"
 #include"circle.h"
 #include"evergreen_tree.h"
+#include"Star.h"
 using namespace System;
 
 
@@ -13,6 +14,7 @@ int main() {
 	Sin sin;
 	Circle circle;
 	Evergreen_tree evergreen_tree;
+	Star star;
 	String ^s;
 	int x;
 	while (true) {
@@ -21,6 +23,7 @@ int main() {
 		Console::WriteLine("3.输出正弦曲线");
 		Console::WriteLine("4.输出圆形");
 		Console::WriteLine("5.输出圣诞树");
+		Console::WriteLine("7.输出五角星");
 		Console::WriteLine("0.退出");
 		Console::WriteLine("请选择以上编号");
 		s = Console::ReadLine();
@@ -66,6 +69,9 @@ int main() {
 			break;
 		case 5:
 			evergreen_tree.Draw();
+			break;
+		case 7:
+			star.Draw();
 			break;
 		case 0:
 			return 0;

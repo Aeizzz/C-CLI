@@ -36,6 +36,9 @@
     <ClInclude Include="evergreen_tree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -54,6 +57,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Evergreen_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
